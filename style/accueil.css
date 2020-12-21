@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    font-size: 11px;
 }
 .navb{
     background-color: rgb(44, 44, 44);
@@ -46,10 +47,12 @@ nav a:hover{
     text-align: center;
     border-radius: 3px;
     margin: 25px;
-    margin-left: 60px;
     border: 1px solid rgb(179, 177, 177);
     background-color: white;
-
+}
+.conta1{
+    display: flex;
+    justify-content: space-evenly;
 }
 .box:hover{
     background-color: rgb(74, 74, 189);
@@ -75,6 +78,7 @@ nav a:hover{
 }
 .vou a{
     text-decoration: none;
+    
 }
 .vou h6{
     color: rgb(46, 45, 45);
@@ -91,10 +95,30 @@ nav a:hover{
     height: 800px;
     background-color: rgb(243, 239, 239);
 }
+.boum{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
-
+.boum h6{
+    color: white;
+}
+.boum a{
+    text-decoration: none;
+    color: rgb(133, 131, 131);
+    font-size: 11px;
+}
+.boum p{
+    font-size: 11px;
+}
+.boum a:hover{
+    color: white;
+}
+.boum1{
+    text-align: left;
+}
 
 
 
