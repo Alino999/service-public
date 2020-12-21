@@ -98,6 +98,10 @@ nav a:hover{
 .boum{
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+.ha hr{
+    border: 1px solid blue;
 }
 
 
@@ -118,6 +122,16 @@ nav a:hover{
 }
 .boum1{
     text-align: left;
+    border: none;
+}
+.boum2{
+    border: none;
+}
+.boum hr{
+    border: 1px solid rgb(90, 89, 89);
+}
+.po{
+    color: rgb(182, 179, 179);
 }
 
 
